@@ -178,18 +178,6 @@ a {
     transition: color 0.2s ease;
 }
 
-@media (min-width: 700px) {
-    body {
-        padding: 28px;
-    }
-
-    .boto-sortida {
-        padding: 7px 22px;
-        font-size: 0.9rem;
-    }
-}
-
-
 .logo {
     position: absolute;
     top: 10px;
@@ -285,3 +273,36 @@ a {
         text-align: center;
     }
 }
+
+@media (min-width: 700px) {
+    body {
+        padding: 28px;
+    }
+
+    .boto-sortida {
+        padding: 7px 22px;
+        font-size: 0.9rem;
+        line-height: 1.1;
+    }
+    
+    .boto-zona {
+        padding: 4px 8px;
+        font-size: 0.85rem;
+    }
+    
+
+    .contenidor-imatge {
+        width: fit-content;
+        max-width: none;
+        margin: 0 auto 18px auto;
+    }
+
+    .contenidor-imatge img {
+        width: auto;
+        height: calc(100vh - 130px);
+        max-height: 800px;
+    }
+}
+
+
+
